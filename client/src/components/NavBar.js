@@ -5,6 +5,8 @@ import { isMobile } from 'react-device-detect';
 import useAuthentication from '../hooks/useAuthentication';
 import './NavBar.css';
 
+
+
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [hideOrShowHamburgerDropDown, setHideOrShowHamburgerDropDown] = useState('nav');
